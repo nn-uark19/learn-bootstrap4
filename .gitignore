@@ -1,0 +1,6 @@
+# NN files
+z-*
+
+# system file
+.DS_Store
+
