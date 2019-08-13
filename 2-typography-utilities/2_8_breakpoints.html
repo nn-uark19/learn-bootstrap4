@@ -9,11 +9,66 @@
         crossorigin="anonymous">
 
     <title>Bootstrap Sandbox</title>
+    <style>
+        /* Small devices (landscape phones) */
+
+        @media (min-width: 576px) {
+            body {
+                background: red;
+            }
+        }
+
+        /* Medium devices (tablets) */
+
+        @media (min-width: 768px) {
+            body {
+                background: blue
+            }
+        }
+
+        /* Large devices (desktops) */
+
+        @media (min-width: 992px) {
+            body {
+                background: green;
+            }
+        }
+
+        /* Extra large devices (large desktops) */
+
+        @media (min-width: 1200px) {
+            body {
+                background: yellow;
+            }
+        }
+
+        /* The given screen size or smaller */
+
+        /* Extra small devices (portrait phones)*/
+
+        @media (max-width: 575px) {
+            body {
+                background: coral;
+            }
+        }
+
+        /* Small devices (landscape phones)*/
+
+        @media (max-width: 767px) {}
+
+        /* Medium devices (tablets)*/
+
+        @media (max-width: 991px) {}
+
+        /* Large devices (desktops)*/
+
+        @media (max-width: 1199px) {}
+    </style>
 </head>
 
 <body>
     <header>
-        <h1 class="display-3 text-center my-4">Colors & Background</h1>
+        <h1 class="display-3 text-center my-4">Breakpoints</h1>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -85,81 +140,8 @@
     </header>
 
     <div class="container">
-        <!--###################START HERE####################-->
+        <!--########################START HERE#########################-->
 
-        <h1>1. TEXT COLORS</h1>
-        <!-- TEXT COLORS -->
-        <p class="text-primary">#text-primary. TEXT COLORS. Text Primary Color</p>
-        <p class="text-secondary">#text-secondary. Text Secondary Color</p>
-        <p class="text-success">#text-success. Text Success Color</p>
-        <p class="text-info">#text-info. Text Info Color</p>
-        <p class="text-warning">#text-warning. Text Warning Color</p>
-        <p class="text-danger">#text-danger. Text Danger Color</p>
-        <p class="text-light">#text-light. Text Light Color</p>
-        <p class="text-dark">#text-dark. Text Dark Color</p>
-        <p class="text-white">#text-white. Text White Color</p>
-        <p class="text-muted">#text-muted. SAME COLOR AS TEXT-SECONDARY. Text Muted</p>
-        <p class="text-black-50">#text-black-50. Text Black 50</p>
-        <p class="text-white">#text-white-50. Text White 50</p>
-
-        <br>
-        <br>
-        <hr>
-
-        <h1>2. LINK COLORS. SAME AS TEXT COLORS</h1>
-        <!-- LINK COLORS. SAME AS TEXT COLORS -->
-        <p>
-            <a href="#" class="text-primary">Primary link</a>
-        </p>
-        <p>
-            <a href="#" class="text-secondary">Secondary link</a>
-        </p>
-        <p>
-            <a href="#" class="text-success">Success link</a>
-        </p>
-        <p>
-            <a href="#" class="text-info">Info link</a>
-        </p>
-        <p>
-            <a href="#" class="text-warning">Warning link</a>
-        </p>
-        <p>
-            <a href="#" class="text-danger">Danger link</a>
-        </p>
-        <p>
-            <a href="#" class="text-light">Light link</a>
-        </p>
-        <p>
-            <a href="#" class="text-dark">Dark link</a>
-        </p>
-        <p>
-            <a href="#" class="text-muted">Muted link</a>
-        </p>
-        <p>
-            <a href="#" class="text-white">White link</a>
-        </p>
-
-        <br>
-        <br>
-        <hr>
-
-        <h1>3. BACKGROUND COLORS</h1>
-        <!-- BACKGROUND COLORS -->
-        <div class="bg-primary text-white">#bg-primary #text-white. Background Primary Color</div>
-        <div class="bg-secondary">#bg-secondary. Background Secondary Color</div>
-        <div class="bg-success">#bg-success. Background Success Color</div>
-        <div class="bg-info">#bg-info. Background Info Color</div>
-        <div class="bg-warning">#bg-warning. Background Warning Color</div>
-        <div class="bg-danger">#bg-danger. Background Danger Color</div>
-        <div class="bg-light">#bg-light. Background Light Color</div>
-        <div class="bg-dark text-light">#bg-dark #text-light. Background Dark Color</div>
-        <div class="bg-white">#bg-white. Background White Color</div>
-        <div class="bg-transparent">#bg-transparent. Background Transparent</div>
-
-        <!-- INVISIBLE -->
-        <p>Transparent class below</p>
-        <p class="invisible">#invisible. Hello</p>
-        <p>Transparent class above</p>
 
     </div>
     <!-- ./container -->

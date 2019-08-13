@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <h1 class="display-3 text-center my-4">Colors & Background</h1>
+        <h1 class="display-3 text-center my-4">Sizing & Borders</h1>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -85,81 +85,67 @@
     </header>
 
     <div class="container">
-        <!--###################START HERE####################-->
+        <!--##################START HERE####################-->
 
-        <h1>1. TEXT COLORS</h1>
-        <!-- TEXT COLORS -->
-        <p class="text-primary">#text-primary. TEXT COLORS. Text Primary Color</p>
-        <p class="text-secondary">#text-secondary. Text Secondary Color</p>
-        <p class="text-success">#text-success. Text Success Color</p>
-        <p class="text-info">#text-info. Text Info Color</p>
-        <p class="text-warning">#text-warning. Text Warning Color</p>
-        <p class="text-danger">#text-danger. Text Danger Color</p>
-        <p class="text-light">#text-light. Text Light Color</p>
-        <p class="text-dark">#text-dark. Text Dark Color</p>
-        <p class="text-white">#text-white. Text White Color</p>
-        <p class="text-muted">#text-muted. SAME COLOR AS TEXT-SECONDARY. Text Muted</p>
-        <p class="text-black-50">#text-black-50. Text Black 50</p>
-        <p class="text-white">#text-white-50. Text White 50</p>
+        <h1>1. WIDTH CLASSES + HEIGHT CLASSES</h1>
+        <!-- WIDTH CLASSES -->
+        <div class="bg-success p-3 w-25">#w-25. Width 25%</div>
+        <div class="bg-success p-3 w-50">#w-50. Width 50%</div>
+        <div class="bg-success p-3 w-75">Width 75%</div>
+        <div class="bg-success p-3 w-100">Width 100%</div>
+        <div class="bg-success p-3 w-auto">#w-auto. Width Auto</div>
+
+        <br>
+        <br>
+
+        <!-- HEIGHT CLASSES -->
+        <div style="height:300px;border: 1px solid #333;">
+            <div class="bg-primary d-inline-block h-25">#h-25. Height 25%</div>
+            <div class="bg-primary d-inline-block h-50">Height 50%</div>
+            <div class="bg-primary d-inline-block h-75">Height 75%</div>
+            <div class="bg-primary d-inline-block h-100">#h-100. Height 100%</div>
+            <div class="bg-primary d-inline-block h-auto">#h-auto. Height Auto</div>
+        </div>
 
         <br>
         <br>
         <hr>
 
-        <h1>2. LINK COLORS. SAME AS TEXT COLORS</h1>
-        <!-- LINK COLORS. SAME AS TEXT COLORS -->
-        <p>
-            <a href="#" class="text-primary">Primary link</a>
-        </p>
-        <p>
-            <a href="#" class="text-secondary">Secondary link</a>
-        </p>
-        <p>
-            <a href="#" class="text-success">Success link</a>
-        </p>
-        <p>
-            <a href="#" class="text-info">Info link</a>
-        </p>
-        <p>
-            <a href="#" class="text-warning">Warning link</a>
-        </p>
-        <p>
-            <a href="#" class="text-danger">Danger link</a>
-        </p>
-        <p>
-            <a href="#" class="text-light">Light link</a>
-        </p>
-        <p>
-            <a href="#" class="text-dark">Dark link</a>
-        </p>
-        <p>
-            <a href="#" class="text-muted">Muted link</a>
-        </p>
-        <p>
-            <a href="#" class="text-white">White link</a>
-        </p>
+        <h1>2. BORDERS- BORDER COLORS</h1>
+        <!-- BORDERS -->
+        <div class="p-3 mb-2 bg-light border">#border. Regular</div>
+        <div class="p-3 mb-2 bg-light border-top">#border-top. Border Top</div>
+        <div class="p-3 mb-2 bg-light border-bottom">Border Bottom</div>
+        <div class="p-3 mb-2 bg-light border-right">Border Right</div>
+        <div class="p-3 mb-2 bg-light border-left">Border Left</div>
+
+        <br>
+        <br>
+
+        <!-- BORDER COLORS -->
+        <div class="p-3 mb-2 bg-light border border-primary">#border #border-primary. Primary</div>
+        <div class="p-3 mb-2 bg-light border border-secondary">Secondary</div>
+        <div class="p-3 mb-2 bg-light border border-success">Success</div>
+        <div class="p-3 mb-2 bg-light border border-info">Info</div>
+        <div class="p-3 mb-2 bg-light border border-warning">Warning</div>
+        <div class="p-3 mb-2 bg-light border border-danger">Danger</div>
+        <div class="p-3 mb-2 bg-light border border-light">Light</div>
+        <div class="p-3 mb-2 bg-light border border-dark">Dark</div>
+        <div class="p-3 mb-2 bg-light border border-white">White</div>
 
         <br>
         <br>
         <hr>
 
-        <h1>3. BACKGROUND COLORS</h1>
-        <!-- BACKGROUND COLORS -->
-        <div class="bg-primary text-white">#bg-primary #text-white. Background Primary Color</div>
-        <div class="bg-secondary">#bg-secondary. Background Secondary Color</div>
-        <div class="bg-success">#bg-success. Background Success Color</div>
-        <div class="bg-info">#bg-info. Background Info Color</div>
-        <div class="bg-warning">#bg-warning. Background Warning Color</div>
-        <div class="bg-danger">#bg-danger. Background Danger Color</div>
-        <div class="bg-light">#bg-light. Background Light Color</div>
-        <div class="bg-dark text-light">#bg-dark #text-light. Background Dark Color</div>
-        <div class="bg-white">#bg-white. Background White Color</div>
-        <div class="bg-transparent">#bg-transparent. Background Transparent</div>
-
-        <!-- INVISIBLE -->
-        <p>Transparent class below</p>
-        <p class="invisible">#invisible. Hello</p>
-        <p>Transparent class above</p>
+        <h1>3. BORDER RADIUS</h1>
+        <!-- BORDER RADIUS -->
+        <div class="p-3 mb-2 bg-light border rounded border-success">#border #rounded #border-success. Rounded</div>
+        <div class="p-3 mb-2 bg-light border rounded-top">#border #rounded-top. Rounded Top</div>
+        <div class="p-3 mb-2 bg-light border rounded-bottom">Rounded Bottom</div>
+        <div class="p-3 mb-2 bg-light border rounded-right">Rounded Right</div>
+        <div class="p-3 mb-2 bg-light border rounded-left">Rounded Left</div>
+        <div class="p-3 mb-2 bg-light w-25 border rounded-circle">#border #rounded-circle. Rounded Circle</div>
+        <div class="p-3 mb-2 bg-light border rounded-0">Dark</div>
 
     </div>
     <!-- ./container -->
